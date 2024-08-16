@@ -25,7 +25,7 @@ public class ModItemGroups {
                 MAIN_MOD_GROUP,
                 FabricItemGroup.builder()
                         .displayName(Text.translatable("itemGroup.kimetsunoyaiba.main_group"))
-                        .icon(() -> new ItemStack(ModItems.TEST_ITEM))
+                        .icon(() -> new ItemStack(ModItems.GROUP_ICON))
                         .build()
         );
 

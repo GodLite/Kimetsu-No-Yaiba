@@ -10,7 +10,8 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item", ModItemGroups.MAIN_MOD_GROUP);
+    public static final Item GROUP_ICON = register(new Item(new Item.Settings()), "group_icon");
+    public static final Item BLOOD = register(new Item(new Item.Settings().food(ModFoodComponents.BLOOD)), "blood", ModItemGroups.MAIN_MOD_GROUP);
 
     public static Item register(Item item, String id) {
         return Items.register(new Identifier(KimetsunoyaibaMod.MODID, id), item);
