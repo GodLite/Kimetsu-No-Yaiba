@@ -24,6 +24,6 @@ public class ModItems {
     }
 
     public static void initialize() {
-        KimetsunoyaibaMod.LOGGER.severe("Items of " + KimetsunoyaibaMod.MODID + " initialized");
+
     }
 }

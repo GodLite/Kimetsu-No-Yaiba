@@ -33,7 +33,5 @@ public class ModItemGroups {
 
     public static void initialize() {
         registerGroups();
-
-        KimetsunoyaibaMod.LOGGER.severe("ItemGroups of " + KimetsunoyaibaMod.MODID + " initialized");
     }
 }
