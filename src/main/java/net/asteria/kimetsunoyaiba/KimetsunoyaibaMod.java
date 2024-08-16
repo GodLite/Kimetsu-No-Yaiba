@@ -1,6 +1,6 @@
 package net.asteria.kimetsunoyaiba;
 
-import net.asteria.kimetsunoyaiba.itemGroup.ModItemGroups;
+import net.asteria.kimetsunoyaiba.item.ModItemGroups;
 import net.asteria.kimetsunoyaiba.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 

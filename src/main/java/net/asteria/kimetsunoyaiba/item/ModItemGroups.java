@@ -1,7 +1,6 @@
-package net.asteria.kimetsunoyaiba.itemGroup;
+package net.asteria.kimetsunoyaiba.item;
 
 import net.asteria.kimetsunoyaiba.KimetsunoyaibaMod;
-import net.asteria.kimetsunoyaiba.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,7 +24,7 @@ public class ModItemGroups {
                 MAIN_MOD_GROUP,
                 FabricItemGroup.builder()
                         .displayName(Text.translatable("itemGroup.kimetsunoyaiba.main_group"))
-                        .icon(() -> new ItemStack(ModItems.TEST_ITEM))
+                        .icon(() -> new ItemStack(ModItems.GROUP_ICON))
                         .build()
         );
 
