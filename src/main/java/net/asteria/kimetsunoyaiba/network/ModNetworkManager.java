@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 public class ModNetworkManager {
 
     public static Identifier getChannelName(String adder, String id) {
-        return new Identifier(KimetsunoyaibaMod.MODID, adder + id);
+        return getChannelName(adder + "_" + id);
     }
     public static Identifier getChannelName(String id) {
         return new Identifier(KimetsunoyaibaMod.MODID, id);
