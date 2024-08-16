@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "kimetsunoyaiba",
+  "version": "${version}",
+  "name": "Kimetsu No Yaiba",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/kimetsunoyaiba/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.asteria.kimetsunoyaiba.client.KimetsunoyaibaClient"
+    ],
+    "main": [
+      "net.asteria.kimetsunoyaiba.KimetsunoyaibaMod"
+    ]
+  },
+  "mixins": [
+    "kimetsunoyaiba.mixins.json",
+    {
+      "config": "kimetsunoyaiba.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

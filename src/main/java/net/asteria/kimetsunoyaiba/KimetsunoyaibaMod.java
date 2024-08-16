@@ -1,0 +1,20 @@
+package net.asteria.kimetsunoyaiba;
+
+import net.asteria.kimetsunoyaiba.itemGroup.ModItemGroups;
+import net.asteria.kimetsunoyaiba.item.ModItems;
+import net.fabricmc.api.ModInitializer;
+
+import java.util.logging.Logger;
+
+public class KimetsunoyaibaMod implements ModInitializer {
+    public static final String MODID = "kimetsunoyaiba";
+    public static final Logger LOGGER = Logger.getLogger(MODID);
+
+    @Override
+    public void onInitialize() {
+        LOGGER.info("Initializing Kimetsunoyaiba");
+        ModItemGroups.initialize();
+        ModItems.initialize();
+
+    }
+}
