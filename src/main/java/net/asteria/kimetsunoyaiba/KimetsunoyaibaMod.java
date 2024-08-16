@@ -12,7 +12,7 @@ public class KimetsunoyaibaMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Initializing Kimetsunoyaiba");
+
         ModItemGroups.initialize();
         ModItems.initialize();
 
