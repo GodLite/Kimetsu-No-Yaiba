@@ -1,7 +1,6 @@
 package net.asteria.kimetsunoyaiba.item;
 
 import net.asteria.kimetsunoyaiba.item.custom.Katana;
-import net.asteria.kimetsunoyaiba.itemGroup.ModItemGroups;
 import net.minecraft.item.Item;
 
 public class Katanas {

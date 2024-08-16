@@ -2,9 +2,7 @@ package net.asteria.kimetsunoyaiba.item;
 
 import net.asteria.kimetsunoyaiba.KimetsunoyaibaMod;
 import net.asteria.kimetsunoyaiba.item.custom.Blood;
-import net.asteria.kimetsunoyaiba.itemGroup.ModItemGroups;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Items;
