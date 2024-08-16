@@ -7,7 +7,7 @@ import net.minecraft.item.SwordItem;
 public class Katana extends SwordItem {
 
     public Katana(int attackDamage, Settings settings) {
-        super(NichirinToolMaterial.INSTANCE, attackDamage, 1.6F, settings);
+        super(NichirinToolMaterial.INSTANCE, attackDamage, -2.4F, settings);
 
     }
 

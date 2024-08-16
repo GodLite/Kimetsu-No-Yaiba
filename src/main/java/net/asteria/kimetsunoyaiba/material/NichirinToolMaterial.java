@@ -13,7 +13,7 @@ public class NichirinToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 1;
+        return 8.0F;
     }
 
     @Override
