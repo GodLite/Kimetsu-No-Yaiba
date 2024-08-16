@@ -1,0 +1,7 @@
+{
+  "parent": "kimetsunoyaiba:custom/katanas/nichirinkatana_bamboo3d",
+  "textures": {
+    "0": "kimetsunoyaiba:item/weapons/nichirinkatana_bamboo",
+    "particle": "kimetsunoyaiba:items/icon_sword"
+  }
+}

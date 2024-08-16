@@ -1,0 +1,8 @@
+{
+  "parent": "kimetsunoyaiba:custom/katanas/nichirinkatana_cherryblossom3d",
+  "textures": {
+    "0": "kimetsunoyaiba:item/weapons/handles/nichirinkatana_handle_cherryblossom",
+    "1": "kimetsunoyaiba:item/weapons/blades/blade_cherryblossom",
+    "particle": "kimetsunoyaiba:items/icon_sword"
+  }
+}

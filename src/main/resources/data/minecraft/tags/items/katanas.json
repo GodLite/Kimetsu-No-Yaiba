@@ -1,5 +1,10 @@
 {
   "values": [
-    "kimetsunoyaiba:nichirinkatana_test"
+    "kimetsunoyaiba:nichirinkatana_test",
+    "kimetsunoyaiba:nichirinkatana_bamboo",
+    "kimetsunoyaiba:nichirinkatana_default",
+    "kimetsunoyaiba:nichirinkatana_cherry_blossom",
+    "kimetsunoyaiba:nichirinkatana_flame"
+
   ]
 }
