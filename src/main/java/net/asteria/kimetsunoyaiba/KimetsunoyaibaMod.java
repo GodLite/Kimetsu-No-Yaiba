@@ -2,6 +2,7 @@ package net.asteria.kimetsunoyaiba;
 
 import net.asteria.kimetsunoyaiba.item.ModItemGroups;
 import net.asteria.kimetsunoyaiba.item.ModItems;
+import net.asteria.kimetsunoyaiba.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
 
 import java.util.logging.Logger;
@@ -13,6 +14,7 @@ public class KimetsunoyaibaMod implements ModInitializer {
     @Override
     public void onInitialize() {
 
+        ModParticles.initialize();
         ModItemGroups.initialize();
         ModItems.initialize();
 

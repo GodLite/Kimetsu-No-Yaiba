@@ -4,6 +4,7 @@
   "package": "net.asteria.kimetsunoyaiba.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AttackMixin"
   ],
   "injectors": {
     "defaultRequire": 1
