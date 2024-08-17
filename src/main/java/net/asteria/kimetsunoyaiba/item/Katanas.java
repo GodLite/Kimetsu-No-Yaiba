@@ -25,10 +25,27 @@ public class Katanas {
             7, getKatanaItemSettings()
     ), "nichirinkatana_flame");
 
+    public static final Katana KATANA_GENYA = register(new Katana(
+            7, getKatanaItemSettings()
+    ), "nichirinkatana_genya");
+
+    public static final Katana KATANA_IGURO = register(new Katana(
+            7, getKatanaItemSettings()
+    ), "nichirinkatana_iguro");
+
+    public static final Katana KATANA_WATER = register(new Katana(
+            7, getKatanaItemSettings()
+    ), "nichirinkatana_water");
+
+    public static final Katana KATANA_ZENITSU = register(new Katana(
+            7, getKatanaItemSettings()
+    ), "nichirinkatana_zenitsu");
+
     private static Katana register(Katana sword, String id) {
         ModItems.register(sword, id, ModItemGroups.MAIN_MOD_GROUP);
         return sword;
     }
+
 
 
 
