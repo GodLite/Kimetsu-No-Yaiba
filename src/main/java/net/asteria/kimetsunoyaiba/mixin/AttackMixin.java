@@ -5,18 +5,12 @@ import net.asteria.kimetsunoyaiba.item.custom.Katana;
 import net.asteria.kimetsunoyaiba.util.BreathingUtility;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.particle.DefaultParticleType;
-import net.minecraft.particle.ParticleType;
-import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import javax.security.auth.callback.Callback;
 
 @Mixin(PlayerEntity.class)
 public class AttackMixin {

@@ -4,10 +4,6 @@ import net.asteria.kimetsunoyaiba.breathing.BreathingSweepAttack;
 import net.asteria.kimetsunoyaiba.particle.ModParticles;
 import net.asteria.kimetsunoyaiba.sound.ModSounds;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.particle.ParticleType;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
