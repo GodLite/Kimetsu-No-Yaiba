@@ -1,9 +1,10 @@
 {
   "itemGroup.kimetsunoyaiba.main_group": "Kimetsu No Yaiba",
-  "item.kimetsunoyaiba.blood": "Blood",
+  "item.kimetsunoyaiba.test_item": "Test Item",
   "item.kimetsunoyaiba.nichirinkatana_test": "Test Nichirin Katana",
   "item.kimetsunoyaiba.nichirinkatana_bamboo": "Katana Bamboo",
   "item.kimetsunoyaiba.nichirinkatana_default": "Katana",
   "item.kimetsunoyaiba.nichirinkatana_cherry_blossom": "Katana huini",
-  "item.kimetsunoyaiba.nichirinkatana_flame": "Flame Katana"
+  "item.kimetsunoyaiba.nichirinkatana_flame": "Katana ",
+  "item.kimetsunoyaiba.nichirinkatana_genya": "Katana Genya"
 }
