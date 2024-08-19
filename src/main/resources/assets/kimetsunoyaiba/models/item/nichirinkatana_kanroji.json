@@ -1,0 +1,7 @@
+{
+  "parent": "kimetsunoyaiba:custom/katanas/nitirintou_kanroji3d",
+  "textures": {
+    "0": "kimetsunoyaiba:item/weapons/nitirintou_kanroji",
+    "particle": "kimetsunoyaiba:items/icon_sword"
+  }
+}

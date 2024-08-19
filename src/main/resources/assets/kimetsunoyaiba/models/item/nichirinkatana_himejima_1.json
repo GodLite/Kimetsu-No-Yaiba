@@ -1,0 +1,7 @@
+{
+  "parent": "kimetsunoyaiba:custom/katanas/nitirintou_himejima13d",
+  "textures": {
+    "1": "kimetsunoyaiba:item/weapons/nitirintou_himejima",
+    "particle": "kimetsunoyaiba:items/icon_sword"
+  }
+}
