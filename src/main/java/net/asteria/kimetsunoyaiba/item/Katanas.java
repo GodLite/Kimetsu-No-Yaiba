@@ -125,9 +125,13 @@ public class Katanas {
             7, getKatanaItemSettings()
     ), "nichirinkatana_yoriichi");
 
-    public static final Katana KATANA_DMOON = register(new Katana(
+    public static final Katana KATANA_MOON = register(new Katana(
             7, getKatanaItemSettings()
     ), "nichirinkatana_moon");
+
+    public static final Katana HF_BLADE = register(new Katana(
+            12, getKatanaItemSettings()
+    ), "hf_blade");
 
 
     private static Katana register(Katana sword, String id) {
