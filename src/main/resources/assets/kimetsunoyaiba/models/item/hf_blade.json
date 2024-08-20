@@ -1,0 +1,11 @@
+{
+  "parent": "kimetsunoyaiba:custom/katanas/hf_blade3d",
+  "textures": {
+    "0": "kimetsunoyaiba:item/weapons/hf_blade_textures/hfblade1",
+    "3": "kimetsunoyaiba:item/weapons/hf_blade_textures/hfblade4",
+    "4": "kimetsunoyaiba:item/weapons/hf_blade_textures/hfblade3",
+    "5": "kimetsunoyaiba:item/weapons/hf_blade_textures/hfblade2",
+    "6": "kimetsunoyaiba:item/none",
+    "particle": "kimetsunoyaiba:item/weapons/hf_blade_textures/hfblade"
+  }
+}
