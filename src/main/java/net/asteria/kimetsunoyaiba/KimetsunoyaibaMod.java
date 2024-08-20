@@ -4,10 +4,8 @@ import net.asteria.kimetsunoyaiba.breathing.ModBreathing;
 import net.asteria.kimetsunoyaiba.item.ModItemGroups;
 import net.asteria.kimetsunoyaiba.item.ModItems;
 import net.asteria.kimetsunoyaiba.network.ModServerNetworking;
-import net.asteria.kimetsunoyaiba.network.packet.ModGuiPacket;
 import net.asteria.kimetsunoyaiba.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.world.World;
 
 import java.util.logging.Logger;
 

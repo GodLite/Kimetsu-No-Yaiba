@@ -1,11 +1,8 @@
 package net.asteria.kimetsunoyaiba.item.custom;
 
-import com.mojang.authlib.minecraft.client.MinecraftClient;
 import net.asteria.kimetsunoyaiba.material.NichirinToolMaterial;
 import net.asteria.kimetsunoyaiba.network.ModServerNetworking;
 import net.asteria.kimetsunoyaiba.network.packet.ModGuiPacket;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;

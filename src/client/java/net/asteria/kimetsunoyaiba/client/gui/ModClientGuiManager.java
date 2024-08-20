@@ -3,13 +3,12 @@ package net.asteria.kimetsunoyaiba.client.gui;
 import net.asteria.kimetsunoyaiba.client.gui.screen.SkillSelectionScreen;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.util.Identifier;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ModClientGuiManager {
-    private static Map<String, Screen> guiMap = new HashMap<String, Screen>();
+    private static final Map<String, Screen> guiMap = new HashMap<String, Screen>();
 
     public static void updateGui(Screen screen) {
         MinecraftClient.getInstance().execute(() -> {

@@ -1,6 +1,5 @@
 package net.asteria.kimetsunoyaiba.client.network.listener;
 
-import net.asteria.kimetsunoyaiba.client.KimetsunoyaibaClient;
 import net.asteria.kimetsunoyaiba.client.gui.ModClientGuiManager;
 import net.asteria.kimetsunoyaiba.client.gui.screen.SkillSelectionScreen;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;

@@ -1,12 +1,11 @@
 package net.asteria.kimetsunoyaiba.network.packet;
 
 import net.asteria.kimetsunoyaiba.KimetsunoyaibaMod;
-import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.util.Identifier;
 
 public class ModGuiPacket implements ModPacket{
-    private PacketByteBuf buf;
+    private final PacketByteBuf buf;
 
     @Override
     public Identifier getIdentifier() {
