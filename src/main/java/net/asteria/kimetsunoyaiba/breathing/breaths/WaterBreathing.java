@@ -46,10 +46,10 @@ public class WaterBreathing implements Breathing {
     public WaterBreathing() {
         skills.add(
                 SkillBuilder.build(
-                        "water_skill_first",
-                        "textures/gui/skill_icon/water/skill_icon.png",
+                        "water_skill_first", // Кодовое имя скилла, оно ни на что не влияет
+                        "textures/gui/skill_icon/water/skill_icon.png", // Иконка скилла
                         (player -> {
-
+                            // код скилла
                         })));
 
 
