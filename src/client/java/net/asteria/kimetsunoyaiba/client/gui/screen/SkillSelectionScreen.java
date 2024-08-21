@@ -1,30 +1,20 @@
 package net.asteria.kimetsunoyaiba.client.gui.screen;
 
-import com.mojang.blaze3d.systems.RenderSystem;
-import net.asteria.kimetsunoyaiba.KimetsunoyaibaMod;
 import net.asteria.kimetsunoyaiba.api.ModSkillNetworkStates;
 import net.asteria.kimetsunoyaiba.api.breathing.Breathing;
 import net.asteria.kimetsunoyaiba.api.breathing.BreathingManager;
-import net.asteria.kimetsunoyaiba.client.KimetsunoyaibaClient;
 import net.asteria.kimetsunoyaiba.client.gui.widget.SkillWidget;
 import net.asteria.kimetsunoyaiba.client.network.ModClientNetworking;
 import net.asteria.kimetsunoyaiba.client.util.TextureUtility;
 import net.asteria.kimetsunoyaiba.network.packet.ModGuiPacket;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.Mouse;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.gui.widget.ButtonWidget;
-import net.minecraft.client.toast.SystemToast;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
-import org.joml.Matrix4f;
 import org.joml.Vector2d;
-import org.joml.Vector3f;
-import org.lwjgl.opengl.GL11;
 
 import java.util.ArrayList;
 
