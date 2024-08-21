@@ -1,7 +1,7 @@
 package net.asteria.kimetsunoyaiba.mixin;
 
 import net.asteria.kimetsunoyaiba.api.breathing.Breathing;
-import net.asteria.kimetsunoyaiba.api.breathing.skills.SweepAttackSkillImpl;
+import net.asteria.kimetsunoyaiba.api.breathing.skill.SweepAttackSkillImpl;
 import net.asteria.kimetsunoyaiba.item.custom.Katana;
 import net.asteria.kimetsunoyaiba.api.breathing.BreathingManager;
 import net.minecraft.entity.player.PlayerEntity;

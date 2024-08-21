@@ -14,6 +14,10 @@ public class BreathingManager {
     public static String getPlayerBreathing(PlayerEntity player) {
         return "water";
     }
+    public static Breathing getBreathing(PlayerEntity player) {
+        return getBreathing(getPlayerBreathing(player));
+    }
+
     public static void registerBreathing(Breathing breathing) {
         if (BREATHINGS.get(breathing.getName()) == null) {
             BREATHINGS.put(breathing.getName(), breathing);

@@ -2,6 +2,6 @@
   "parent": "kimetsunoyaiba:custom/katanas/nitirintou_zenitsu3d",
   "textures": {
     "0": "kimetsunoyaiba:item/weapons/nitirintou_zenitsu",
-    "particle": "kimetsunoyaiba:items/icon_sword"
+    "particle": "kimetsunoyaiba:item/icon_sword"
   }
 }

@@ -3,6 +3,6 @@
   "textures": {
     "0": "kimetsunoyaiba:item/weapons/handles/nichirinkatana_handle",
     "1": "kimetsunoyaiba:item/weapons/blades/blade_flame",
-    "particle": "kimetsunoyaiba:items/icon_sword"
+    "particle": "kimetsunoyaiba:item/icon_sword"
   }
 }

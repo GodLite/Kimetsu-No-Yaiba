@@ -16,6 +16,5 @@ public class KimetsunoyaibaClient implements ClientModInitializer {
         ModClientNetworking.initialize();
         ModClientGuiManager.initialize();
 
-
     }
 }

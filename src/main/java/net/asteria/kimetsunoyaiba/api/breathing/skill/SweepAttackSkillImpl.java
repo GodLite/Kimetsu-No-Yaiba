@@ -1,4 +1,4 @@
-package net.asteria.kimetsunoyaiba.api.breathing.skills;
+package net.asteria.kimetsunoyaiba.api.breathing.skill;
 
 import net.minecraft.particle.ParticleType;
 import net.minecraft.sound.SoundEvent;

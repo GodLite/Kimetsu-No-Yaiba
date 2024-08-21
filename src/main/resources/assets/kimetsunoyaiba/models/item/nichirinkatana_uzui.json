@@ -3,6 +3,6 @@
   "textures": {
     "0": "kimetsunoyaiba:item/weapons/nitirintou_uzui",
     "1": "kimetsunoyaiba:item/weapons/akkimessatsu_yellow",
-    "particle": "kimetsunoyaiba:items/icon_sword"
+    "particle": "kimetsunoyaiba:item/icon_sword"
   }
 }

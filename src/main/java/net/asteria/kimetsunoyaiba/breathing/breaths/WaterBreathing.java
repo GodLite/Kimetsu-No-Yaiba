@@ -1,7 +1,8 @@
 package net.asteria.kimetsunoyaiba.breathing.breaths;
 
 import net.asteria.kimetsunoyaiba.api.breathing.Breathing;
-import net.asteria.kimetsunoyaiba.api.breathing.skills.SweepAttackSkillImpl;
+import net.asteria.kimetsunoyaiba.api.breathing.SkillBuilder;
+import net.asteria.kimetsunoyaiba.api.breathing.skill.SweepAttackSkillImpl;
 import net.asteria.kimetsunoyaiba.particle.ModParticles;
 import net.asteria.kimetsunoyaiba.sound.ModSounds;
 import net.minecraft.particle.ParticleType;
@@ -19,7 +20,7 @@ public class WaterBreathing implements Breathing {
 
     @Override
     public Integer getSkillsCount() {
-        return 0;
+        return skills.size();
     }
 
     @Override
@@ -43,6 +44,15 @@ public class WaterBreathing implements Breathing {
     }
 
     public WaterBreathing() {
+        skills.add(
+                SkillBuilder.build(
+                        "water_skill_first",
+                        "textures/gui/skill_icon/water/skill_icon.png",
+                        (player -> {
+
+                        })));
+
+
 
     }
 }

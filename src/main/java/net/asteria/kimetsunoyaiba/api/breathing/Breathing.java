@@ -1,7 +1,8 @@
 package net.asteria.kimetsunoyaiba.api.breathing;
 
-import net.asteria.kimetsunoyaiba.api.breathing.skills.SweepAttackSkillImpl;
+import net.asteria.kimetsunoyaiba.api.breathing.skill.SweepAttackSkillImpl;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.text.Text;
 
 public interface Breathing {
 
@@ -14,6 +15,12 @@ public interface Breathing {
     public String getName(); // имя скилла, допустим "water"
 
     interface Skill {
+
+        public String getIconTextureRL();
+
+        public Text getVisibleName();
+
+        public Text getDescription();
 
         public String getName(); // имя способности
 

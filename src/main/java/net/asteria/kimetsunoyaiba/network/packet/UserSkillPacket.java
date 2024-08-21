@@ -4,9 +4,9 @@ import net.asteria.kimetsunoyaiba.KimetsunoyaibaMod;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.util.Identifier;
 
-public class ModGuiPacket implements ModPacket{
+public class UserSkillPacket implements ModPacket{
     private final PacketByteBuf buf;
-    private final String name = "gui_packet";
+    private final String name = "user_skill";
 
     @Override
     public Identifier getIdentifier() {
@@ -23,7 +23,7 @@ public class ModGuiPacket implements ModPacket{
         return name;
     }
 
-    public ModGuiPacket(PacketByteBuf buf) {
+    public UserSkillPacket(PacketByteBuf buf) {
         this.buf = buf;
     }
 }
